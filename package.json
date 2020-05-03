@@ -14,10 +14,20 @@
 		}
 	],
 	"license": "BSD-3-Clause",
-	"keywords": ["API", "Express", "REST", "Mongoose", "MongoDB"],
+	"keywords": [
+		"API",
+		"Express",
+		"REST",
+		"Mongoose",
+		"MongoDB"
+	],
 	"dependencies": {
 		"babel": "^6.23.0",
-		"babel-cli": "^6.26.0",
 		"babel-preset-env": "^1.6.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.2.3",
+		"@babel/core": "^7.3.3",
+		"babel-cli": "^6.26.0"
 	}
 }
